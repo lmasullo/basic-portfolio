@@ -1,14 +1,30 @@
+body {
+  background-image: url("assets/images/dust_scratches.png");
+  background-color: #efefef;
+  /* background-color: red; */
+}
 #wrapper {
   /* Margin auto will center the div */
-  /* margin: auto; */
+  margin: auto;
   width: 500px; /*960px;*/
   height: 500px;
-  border: 1px solid black;
-  background-color: red;
+}
+
+#main {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 }
 
 nav {
-  background-color: blue;
+  background-color: #ffffff;
+  font-family: "Georgia", Times, Times New Roman, serif;
+}
+
+#name {
+  float: left;
+  background-color: #4aaaa5;
+  padding: 14px;
 }
 
 nav a {
@@ -20,14 +36,24 @@ nav a {
   font-size: 17px;
 }
 
-#name {
-  float: left;
-  background-color: blue;
-  padding: 14px;
+#me {
+  color: #4aaaa5;
 }
 
 #pict_me {
   float: left;
+}
+
+p {
+  color: #777777;
+}
+
+footer {
+  background-color: #666666;
+  border-top: 5px solid #4aaaa5;
+  height: 30px;
+  text-align: center;
+  padding-top: 10px;
 }
 
 .clearfix::after {
