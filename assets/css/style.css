@@ -1,0 +1,37 @@
+#wrapper {
+  /* Margin auto will center the div */
+  /* margin: auto; */
+  width: 500px; /*960px;*/
+  height: 500px;
+  border: 1px solid black;
+  background-color: red;
+}
+
+nav {
+  background-color: blue;
+}
+
+nav a {
+  float: right;
+  /* color: #f2f2f2; */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#name {
+  float: left;
+  background-color: blue;
+  padding: 14px;
+}
+
+#pict_me {
+  float: left;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
