@@ -24,7 +24,7 @@ nav {
 #name {
   float: left;
   background-color: #4aaaa5;
-  padding: 15px;
+  padding: 14px;
   font-size: 24px;
 }
 
@@ -48,18 +48,30 @@ a {
 }
 
 hr {
-  margin: 0 15px 0 15px;
+  margin: 0 15px 10px 15px;
 }
 
-#pict_me {
-  float: left;
-  margin: 25px 25px;
-}
-
-p {
+label,
+input,
+textarea {
   color: #777777;
-  margin: 25px 25px;
-  line-height: 2;
+  margin: 10px 15px 10px 15px;
+  width: 930px;
+  height: 25px;
+}
+
+textarea {
+  color: #777777;
+  margin: 10px 15px 10px 15px;
+  width: 930px;
+  height: 150px;
+}
+
+.submit {
+  background-color: #4aaaa5;
+  width: 80px;
+  height: 30px;
+  color: #ffffff;
 }
 
 footer {
