@@ -48,30 +48,11 @@ a {
 }
 
 hr {
-  margin: 0 15px 10px 15px;
+  margin: 0 15px 15px 15px;
 }
 
-label,
-input,
-textarea {
-  color: #777777;
-  margin: 10px 15px 10px 15px;
-  width: 930px;
-  height: 25px;
-}
-
-textarea {
-  color: #777777;
-  margin: 10px 15px 10px 15px;
-  width: 930px;
-  height: 150px;
-}
-
-.submit {
-  background-color: #4aaaa5;
-  width: 80px;
-  height: 30px;
-  color: #ffffff;
+img {
+  margin: 15px 20px 15px 20px;
 }
 
 footer {
@@ -83,6 +64,7 @@ footer {
   position: -webkit-sticky; /* Safari */
   position: sticky;
   bottom: 0;
+  color: #ffffff;
 }
 
 .clearfix::after {
