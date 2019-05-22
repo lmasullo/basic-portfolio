@@ -24,7 +24,7 @@ nav {
 #name {
   float: left;
   background-color: #4aaaa5;
-  padding: 14px;
+  padding: 15px;
   font-size: 24px;
 }
 
@@ -87,6 +87,12 @@ footer {
   position: sticky;
   bottom: 0;
   color: #ffffff;
+}
+
+a:hover,
+.current {
+  background-color: #4aaaa5;
+  color: white;
 }
 
 .clearfix::after {

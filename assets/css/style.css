@@ -74,6 +74,12 @@ footer {
   color: #ffffff;
 }
 
+a:hover,
+.current {
+  background-color: #4aaaa5;
+  color: white;
+}
+
 .clearfix::after {
   content: "";
   display: block;
