@@ -1,0 +1,10 @@
+#pict_me {
+  float: left;
+  margin: 25px 25px;
+}
+
+p {
+  color: #777777;
+  margin: 25px 25px;
+  line-height: 2;
+}
